@@ -22,13 +22,15 @@ public:
     
     int maxArea = 0;
     int temp = 0;
+    stack<pair<int,int>> visited;
     
     void getArea(vector<vector<int>>& grid, int r, int c){
-        if (r < 0 || c < 0 || r >= grid.size() || c >= grid[0].size() || grid[r][c] == 0){
+        pair<int,int> p = {r,c};
+        if (visited.find(p) != visited.end() || r < 0 || c < 0 || r >= grid.size() || c >= grid[0].size() || grid[r][c] == 0){
             return;
         }
         
-        grid[r][c] = 0;
+        visited.insert(p);
         temp++;
         getArea(grid,r+1,c);
         getArea(grid,r-1,c);
