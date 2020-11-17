@@ -1,3 +1,14 @@
+//
+//  Topic: Linked Lists
+//      Problem: Merge two sorted lists
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given two sorted linked lists merge both of them
+// returning a single linked lists with all of the values
+// sorted
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
