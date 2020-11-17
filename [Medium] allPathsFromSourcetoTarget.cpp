@@ -1,3 +1,13 @@
+//  Topic: Graphs
+//      Problem: All Pahts From Source to Target
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a set of graphs return all the possible paths
+// from the origin (first graph) to a 
+// target (last node)
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
