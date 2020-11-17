@@ -66,6 +66,12 @@ vector<vector<int>> createMatrix(vector<vector<int>>& graph){
     return matrix;
 }
 
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+        vector<vector<int>> matrix = createMatrix(graph);
+        findAllPaths(matrix,0,graph.size()-1);
+        return result;
+    }
+
 int main(){
 
     vector<vector<int>> graph = {{1,2,3},{2},{3},{}};
