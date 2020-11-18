@@ -1,3 +1,14 @@
+//  Topic: DFS
+//      Problem: Max Area of Island
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a matrix containing 0's and 1's where
+// the ones represent land and the zeros represent sea
+// find the island with the greates area, and island is 
+// a set of ones that are adjacent to each other (either
+// horizontally or vertically)
 
 #include <stdio.h>
 #include <iostream>
