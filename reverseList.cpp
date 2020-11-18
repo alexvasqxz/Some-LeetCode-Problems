@@ -1,3 +1,14 @@
+//
+//  Topic: Linked Lists
+//      Problem: Reverse Linked List
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list create a function that
+// reverses it, meaning, the head node is now the
+// last node
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
