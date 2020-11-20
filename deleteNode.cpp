@@ -1,3 +1,13 @@
+//
+//  Topic: Linked Lists
+//      Problem: Delete Node
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a certain node (without being given
+// the head of the list) find a way to delete it
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
