@@ -1,3 +1,13 @@
+//  Topic:
+//      Problem: Super Ugly Number
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a vector containing prime numbers write a
+// program to find the nth ugly number, by multiplicating
+// every number in the vector
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
