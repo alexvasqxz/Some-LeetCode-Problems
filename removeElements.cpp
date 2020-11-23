@@ -1,3 +1,15 @@
+//
+//  Topic: Linked Lists
+//      Problem: Remove Elements
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list remove all elements
+// containing a certain value, and return the
+// new lineked list after removing this
+// or these nodes
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
