@@ -1,3 +1,12 @@
+//
+//  Topic: Linked Lists
+//      Problem: Middle Node
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list return its middle Node
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
