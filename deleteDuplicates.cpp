@@ -1,3 +1,14 @@
+//
+//  Topic: Linked Lists
+//      Problem: Remove Duplicates
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a sorted linked list remove all elements
+// that are repeated in the list (more than one
+// time)
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
