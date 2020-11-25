@@ -1,3 +1,18 @@
+//
+//  Topic: Linked Lists
+//      Problem: Swap Nodes in Pairs
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list swap its nodes in pairs, meaning
+// the nodes that were in the odd positions will no be in
+// even positions and viceversa.
+// Example:
+// 1 -> 2 -> 3 -> 4
+// Expected Output:
+// 2 -> 1 -> 4 -> 3
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
