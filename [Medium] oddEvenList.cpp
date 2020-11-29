@@ -1,3 +1,18 @@
+//
+//  Topic: Linked Lists
+//      Problem: Odd Even Linked List
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list reacommodate it so the numbers
+// with the odd positions go first and then the numbers
+// with the even positions
+// Input Example:
+// 1 -> 2 -> 3 -> 4 -> 5 -> N
+// Output:
+// 1 -> 3 -> 5 -> 2 -> 4 -> N
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
