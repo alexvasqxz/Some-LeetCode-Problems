@@ -1,3 +1,17 @@
+//
+//  Topic: Linked Lists
+//      Problem: Reverse Linked List II
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a linked list and two parameters (int) reverse
+// the numbers that are between those two parameters
+// Input Example:
+// 1 -> 2 -> 3 -> 4 -> 5  i = 2 j = 4
+// Output:
+// 1 -> 4 -> 3 -> 2 -> 5
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
