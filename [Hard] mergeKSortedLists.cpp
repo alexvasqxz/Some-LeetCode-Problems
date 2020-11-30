@@ -1,4 +1,21 @@
-≈#include <stdio.h>
+//
+//  Topic: Linked Lists
+//      Problem: Merge K Sorted Lists
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a k number of sorted lists, create a function
+// that merges all of these lists and returns a unique
+// sorted list
+// Input example:
+// 1 -> 2 -> 3 -> 7
+// 2 -> 4 -> 10
+// 9 -> 11 -> 12
+// Output:
+// 1 -> 2 -> 2 -> 3 -> 4 -> 7 -> 9 -> 10 -> 11 -> 12
+
+#include <stdio.h>
 #include <iostream>
 #include <vector>
 #include <map>
