@@ -1,3 +1,22 @@
+//
+//  Topic: Binary Trees
+//      Problem: Merge two Binary Trees
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given two binary trees merge them in a way that
+// the new binary tree contains the sum of the nodes
+// of the two binary trees
+// Input:
+//    3         6
+//  /   \      /
+// 1     5    4
+// Output:
+//    9
+//   / \
+//  5   5
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
