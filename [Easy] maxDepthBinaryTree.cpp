@@ -1,3 +1,14 @@
+//
+//  Topic: Binary Trees
+//      Problem: Maximum Depth of Binary Tree
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a binary tree return its maximum
+// depth, meaning, the greater numbers of levels from
+// the right vs left side
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
