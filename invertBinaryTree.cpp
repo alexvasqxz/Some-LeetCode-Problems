@@ -1,3 +1,26 @@
+//
+//  Topic: Binary Trees
+//      Problem: Invert a Binary Tree
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a bianry tree invert it in a way that
+// the left nodes are now on the right side
+// Input:
+//     4
+//    / \
+//   2   6
+//    \   \
+//     3   9
+//
+// Output:
+//     4
+//    / \
+//   6   2
+//  /   /
+//  9   3
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
