@@ -1,3 +1,14 @@
+//
+//  Topic: Binary Trees
+//      Problem: Same Tree
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given two binary trees create a boolean function
+// that returns True if both Trees are the same,
+// otherwise return false
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
