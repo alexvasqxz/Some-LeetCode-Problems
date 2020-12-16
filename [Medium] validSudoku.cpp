@@ -1,3 +1,21 @@
+//
+//  Topic: Hash Tables
+//      Problem: Valid Sudoku
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Determine if a 9x9 Sudoku board is valid, only the filled
+// cells need to be checked for validation.
+// The rules for a Sudoku validation are:
+// 1. Each row must contain the 1-9 digits without repeting
+// 2. Each column must contain the 1-9 digits without repeting
+// 3. Each of the nine 3x3 subgrids must cointain the 1-9
+// digits without repeting
+// The example given in the main function is valid, but if we substitute
+// the first 5 on the upper left corner for an 8 it should return
+// false because we already have an 8 in the same column and subgrid
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
