@@ -1,3 +1,13 @@
+//
+//  Topic: Binary Trees
+//      Problem: Inorder Traversal
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a binary tree, store its elements value
+// using Inorder Traversal
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
