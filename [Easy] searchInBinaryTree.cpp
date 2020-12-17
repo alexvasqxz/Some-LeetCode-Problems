@@ -1,3 +1,15 @@
+//
+//  Topic: Binary Trees
+//      Problem: Search in a Binary Tree
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a binary tree and an integer value, traverse
+// the binary tree looking for the node containing that
+// value and return it, if the value does not exist
+// inside the tree return null
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
