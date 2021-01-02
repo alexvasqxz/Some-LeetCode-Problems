@@ -1,3 +1,14 @@
+//
+//  Topic: Binary Trees
+//      Problem: Path Sum II
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Give a binary search tree and a sum, find all the
+// root-to-leaf paths where each path's sum equals the
+// given sum
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
