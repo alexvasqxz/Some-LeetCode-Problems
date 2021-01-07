@@ -1,3 +1,18 @@
+//
+//  Topic: Binary Trees
+//      Problem: Longest ZigZag
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Give a binary search tree return the longest
+// zigzag path contain in that tree
+// A ZigZag is defined as follow:
+// - Choose any node in the binary tree and a direction (right or left).
+// - If the current direction is right then move to the right child of the current   node otherwise move to the left child.
+// - Change the direction from right to left or right to left.
+// - Repeat the second and third step until you can't move in the tree.
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
