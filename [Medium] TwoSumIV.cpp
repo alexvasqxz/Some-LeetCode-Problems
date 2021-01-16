@@ -1,3 +1,14 @@
+//
+//  Topic: Binary Trees
+//      Problem: Two Sum IV
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given the root of a BST and a target number k, return true if there
+// exist two elements in the BST such that their sum is equal to
+// the given target
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
