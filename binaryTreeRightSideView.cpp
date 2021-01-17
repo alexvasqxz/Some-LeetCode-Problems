@@ -1,3 +1,14 @@
+//
+//  Topic: Binary Trees
+//      Problem: Right Side View
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a binary tree, imagine yourself standing on the
+// right side of it, return the values of the nodes you can
+// see ordered from top to bottom
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
