@@ -1,3 +1,13 @@
+//
+//  Topic: Binary Trees
+//      Problem: Average of Levels
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a non empty binary tree, return the average value of the nodes
+// on each level in the form of an array
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
