@@ -71,7 +71,41 @@ public:
         }
         return res;
     }
-    
+};
+
+// BFS Solution
+class Solution{
+public:
+    vector<vector<int>> levelOrderBottom(TreeNode* root){
+        if (!root){
+            return {};
+        }
+        vector<vector<int>> ret;
+        stack<vector<int>> mySt;
+        deque<TreeNode*> myQue;
+        myQue.emplace_back(root);
+        while (!myQue.empty()){
+            int n = myQue.size();
+            vector<int> temp;
+            for (int i = 0; i < n; i++){
+                auto node = myQue.front();
+                myQue.pop_front();
+                if (node->left){
+                    myQue.emplace_back(node->left);
+                }
+                if (node->right){
+                    myQue.emplace_back(node->right);
+                }
+                temp.emplace_back(node->val);
+            }
+            mySt.push(temp);
+        }
+        while (!mySt.empty()){
+            ret.emplace_back(mySt.top());
+            mySt.pop();
+        }
+        return ret;
+    }
 };
 
 int main(){
