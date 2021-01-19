@@ -1,3 +1,13 @@
+//
+//  Topic: Binary Trees
+//      Problem: Level Order Traversal
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given a binary tree, return the bottom up level order
+// traversal of its node's values (from left to right)
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
