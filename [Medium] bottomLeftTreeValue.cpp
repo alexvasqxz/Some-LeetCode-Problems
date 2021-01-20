@@ -1,3 +1,13 @@
+//
+//  Topic: Binary Trees
+//      Problem: Find Bottom Left Tree Value
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given the root of a binary tree, return the
+// leftmost value in the last row of the tree.
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
