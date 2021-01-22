@@ -1,3 +1,20 @@
+//
+//  Topic: BFS
+//      Problem: Word Ladder
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// A transformation sequence from word beginWord to word endWord using a
+// dictionary wordList is a sequence such that:
+// - The first word in the sequence is beginWord
+// - The last word is endWord
+// - Only one letter is different between each adjacent pair of words
+//   in the sequence
+// - Every word in the sequence is in the wordList dictionary
+// Given two word return the number of words in the shortest
+// transformation sequence from beginWord to endWord
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
