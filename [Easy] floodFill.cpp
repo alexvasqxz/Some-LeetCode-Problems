@@ -1,3 +1,18 @@
+//
+//  Topic: BFS / DFS
+//      Problem: Flood Fill
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// An image is represented by a 2D array of integers, each integer
+// representing the pixel value of the image
+// Given a coordinate representing the starting pixel of the flood
+// fill, and a pixel value newColor, "flood fill" the image considering
+// the starting pixel plus any pixels connected 4-directionally to the
+// starting pixel of the same color as the starting pixel
+// At the end return the modified image
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
