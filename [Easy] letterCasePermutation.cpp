@@ -1,3 +1,14 @@
+//
+//  Topic: DFS
+//      Problem: Letter Case Permutation
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given an s string we can transform letter individually to be
+// lowercase or uppercase to create another string.
+// Return a list of all possible strings we can create
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
