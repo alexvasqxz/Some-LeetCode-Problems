@@ -1,3 +1,16 @@
+//
+//  Topic: BFS
+//      Problem: Word Ladder
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// Given two words (beginWord and endWord) and a dictionary wordList, find
+// all shortest transformations sequences from beginWord to endWord such that:
+//  - Only one letter can be changed at a time
+//  - Each transformed word must exist in the word list. Note that
+//    beginWord is not a transformed word
+
 #include <stdio.h>
 #include <iostream>
 #include <vector>
