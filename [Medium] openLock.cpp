@@ -1,3 +1,17 @@
+//
+//  Topic: BFS
+//      Problem: Open the Lock
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2020 Alex Vasquez. All rights reserved.
+
+// You have a lock in front of you with 4 circular wheels, each wheel has
+// 10 sluts, the wheels can rotate freely and wrap around, for example 9 to 0
+// or 0 to 9. The lock starts at '0000'
+// You are given a list of deadens, meaning if the lock displays any of these codes the
+// wheels of the lock will stop turning
+// Given a target return the minimum total number of turns required to
+// open the lock, or -1 if it is impossible
 
 #include <stdio.h>
 #include <iostream>
