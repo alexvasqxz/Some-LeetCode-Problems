@@ -1,3 +1,17 @@
+//
+//  Topic: BFS
+//      Problem: Snakes and Ladders
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2021 Alex Vasquez. All rights reserved.
+
+// On an NXN board, the numbers from 1 to N*N are written starting from
+// the bottom left of the board, and alternating direction each row.
+// You start on square 1 of the board, and each move consists of:
+// - You choose a square from x+1 to x+6
+// - If s has a snake or ladder, you move to the destination of that snake
+//   or ladder
+// Return the least number of moves required to reach square N*N
 
 #include <stdio.h>
 #include <iostream>
