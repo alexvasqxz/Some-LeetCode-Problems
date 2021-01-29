@@ -1,3 +1,12 @@
+//
+//  Topic: Backtracking
+//      Problem: Generate Parentheses
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2021 Alex Vasquez. All rights reserved.
+
+// Given n pairs of parentheses, write a function to
+// generate all combinations of well-formed parentheses.
 
 #include <stdio.h>
 #include <iostream>
