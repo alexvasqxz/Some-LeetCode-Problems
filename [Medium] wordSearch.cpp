@@ -1,3 +1,13 @@
+//
+//  Topic: DFS
+//      Problem: Word Search
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2021 Alex Vasquez. All rights reserved.
+
+// Given an mXn board and a word, find if the word exists
+// in the board. The word can be constructed from letters
+// in adjacent cells (horizontal and vertical)
 
 #include <stdio.h>
 #include <iostream>
