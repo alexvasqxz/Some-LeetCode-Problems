@@ -1,3 +1,15 @@
+//
+//  Topic: BFS
+//      Problem: N-ary Tree Level Order Traversal
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2021 Alex Vasquez. All rights reserved.
+
+/*
+ Given an n-ary tree, return the level order traversal of its nodes' values.
+
+ Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value
+ */
 
 #include <stdio.h>
 #include <iostream>
