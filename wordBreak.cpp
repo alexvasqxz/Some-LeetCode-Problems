@@ -1,3 +1,11 @@
+//
+//  Topic: Dynamic Programming
+//      Problem: Word Break
+//
+//  Created by Gustavo Vasquez
+//  Copyright © 2021 Alex Vasquez. All rights reserved.
+
+
 /*
  Given a non-empty string s and a dictionary wordDict containing a list of
  non-empty words, determine if s can be segmented into a space-separated sequence
@@ -34,3 +42,12 @@ public:
         return dp[size];
     }
 };
+
+int main(){
+    Solution sol;
+    vector<string> dictionary = {"apple", "pen"};
+    string s = "applepenapple";
+    sol.wordBreak(s, dictionary);
+    
+    return 0;
+}
