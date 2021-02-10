@@ -7,6 +7,13 @@
  You may assume the dictionary does not contain duplicate words.
  */
 
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
